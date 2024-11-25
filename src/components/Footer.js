@@ -1,11 +1,12 @@
 import React from 'react'
 import footerLogo from "../assets/logo3.png"
+import './Footer.css'
 
 const Footer = () => {
   return (
     <div>
         <div className='footer'>
-            <div className='footer-poolini'>
+            <div className='footer_poolino'>
                 <img src={footerLogo} alt='پولینو'/>
                 <p>
                 همتا، هسته مرکزی تراکنش های الکترونیکی در حوزه مالی و بانکی و پرداخت های هوشمند و توزیع کننده دستگاه های کش لس، کارتخوان، خودپرداز، صندوق فروشگاهی و خدمات سوئیچ بانکی از طریق شبکه گسترده نمایندگی در سراسر کشور
