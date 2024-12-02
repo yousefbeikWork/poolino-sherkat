@@ -6,6 +6,7 @@
     align-items: flex-start;
     padding: 20px;
     direction: rtl;
+    margin-bottom: 0;
 }.footer > div {
     flex: 1;
     margin: 0 10px;
@@ -37,7 +38,25 @@
   .footer-social {
     text-align: center;
   }
-  
+
+  .footer-social a button {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: #bed6e4;
+    color: #108bd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+  }
+  .footer-social a button:hover {
+    background-color: #108bd0;
+    color: #bed6e4;
+  }
   .footer-social a {
     margin: 0 10px;
     display: inline-block;

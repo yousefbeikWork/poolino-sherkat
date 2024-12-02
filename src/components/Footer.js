@@ -1,7 +1,12 @@
 import React from 'react'
 import footerLogo from "../assets/logo3.png"
 import './Footer.css'
-import { FaLocationDot } from "react-icons/fa6";
+import { IoLocationOutline } from "react-icons/io5";
+import { LiaTelegram } from "react-icons/lia";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { SiAiohttp } from "react-icons/si";
+
 
 
 const Footer = () => {
@@ -14,7 +19,7 @@ const Footer = () => {
                 همتا، هسته مرکزی تراکنش های الکترونیکی در حوزه مالی و بانکی و پرداخت های هوشمند و توزیع کننده دستگاه های کش لس، کارتخوان، خودپرداز، صندوق فروشگاهی و خدمات سوئیچ بانکی از طریق شبکه گسترده نمایندگی در سراسر کشور
                 </p>
                 <p>
-                <FaLocationDot />
+                <IoLocationOutline  style={{ color : "red" }}/>
                 تهران، میرزای شیرازی، کوچه شهدا، پلاک 23، واحد 4.
                 </p>
                 <p>
@@ -39,7 +44,11 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='footer-social'>
-
+                <a href='/'><button><SiAiohttp /></button></a>
+                <a href='https://t.me/amitishamta'><button><LiaTelegram /></button></a>
+                <a href='https://www.instagram.com/amitishamta/'><button><FaInstagram /></button></a>
+                <a href='https://chat.whatsapp.com/F4fd5jfCNqPAvoQNox2O64'><button><FaWhatsapp /></button></a>
+                <a href='https://maps.app.goo.gl/nBzypXpxFx9DJwiG9'><button><IoLocationOutline /></button></a>
             </div>
         </div>
     </div>
