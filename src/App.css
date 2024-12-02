@@ -5,8 +5,24 @@
 }
 
 .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #d8d8d8;
     width: 100%;
+    height: auto;
     min-height: 100vh;
-    padding: 1px;
+    /* padding: 50px 250px 0px; */
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+    color: #171717;
+    font-family: iransans-r;
+}
+
+@media (min-width: 1835px) {
+    .App{
+        padding: 50px 250px 0px;
+    }
 }
