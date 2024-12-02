@@ -1,6 +1,8 @@
 import React from 'react'
 import footerLogo from "../assets/logo3.png"
 import './Footer.css'
+import { FaLocationDot } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -12,6 +14,7 @@ const Footer = () => {
                 همتا، هسته مرکزی تراکنش های الکترونیکی در حوزه مالی و بانکی و پرداخت های هوشمند و توزیع کننده دستگاه های کش لس، کارتخوان، خودپرداز، صندوق فروشگاهی و خدمات سوئیچ بانکی از طریق شبکه گسترده نمایندگی در سراسر کشور
                 </p>
                 <p>
+                <FaLocationDot />
                 تهران، میرزای شیرازی، کوچه شهدا، پلاک 23، واحد 4.
                 </p>
                 <p>
